@@ -42,3 +42,7 @@
 .dark-mode:not(navbar){
     filter: invert(100%);
 }
+.icon-black{
+    background-color: #FFD24C;
+    border-radius: 10px;
+}
