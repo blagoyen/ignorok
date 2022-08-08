@@ -54,7 +54,14 @@
             </li>
           </ul>
         </div>
+        <i class="fa-solid fa-moon darkModebtn" style="font-size: 30px; padding-right: 1rem;" onclick=""></i>
       </nav>
+      <script>
+        let button = document.querySelector('.darkModebtn')
+        button.addEventListener('click', ()=>{
+          document.documentElement.classList.toggle('dark-mode')
+        })
+      </script>
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">

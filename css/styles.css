@@ -39,3 +39,6 @@
 .hoverColor:hover{
     color: #584a1a;
 }
+.dark-mode:not(navbar){
+    filter: invert(100%);
+}
