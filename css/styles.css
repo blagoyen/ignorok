@@ -1,48 +1,88 @@
-#title{
+#title {
     background-color: #FFFFFF;
 }
 
-.mainImage-bored{
+.mainImage-bored {
     height: auto;
     display: block;
     margin: 10% auto;
     width: 100%;
 }
 
-.slogan{
+.slogan {
     font-family: 'Nunito', sans-serif;
     padding-top: 20%;
 }
 
-.brand-name{
+.brand-name {
     font-family: 'Signika', sans-serif;
 }
 
-::selection{
+::selection {
     background-color: #FFD24C;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 3% 15%;
     height: 100vh;
 }
-.download-button{
+
+.download-button {
     padding-top: 5%;
 }
-.jonathan-poop{
+
+.jonathan-poop {
     height: 15rem;
     width: auto;
 }
-.review-description{
+
+.review-description {
     padding-top: 3rem;
 }
 
-.hoverColor:hover{
+.hoverColor:hover {
     color: #584a1a;
 }
-.dark-mode:not(navbar){
+
+.dark-mode:not(navbar) {
     filter: invert(100%);
 }
-.icon-black{
+
+.icon-black {
     background-color: #FFD24C;
     border-radius: 10px;
+}
+
+.review-description {
+    max-width: 50%;
+    margin-right: 30%;
+}
+
+.jonathan-poop {
+    max-width: fit-content;
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+}
+
+@media screen and (max-width : 914px) {
+
+
+    .review-description {
+        margin: 0 auto;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width : 760px) {
+
+
+    .review-description {
+        margin: 0 auto;
+    }
+
+    .jonathan-poop {
+        margin: 0 auto;
+    }
 }
