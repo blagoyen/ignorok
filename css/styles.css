@@ -110,5 +110,17 @@
         margin-top: 30%;
         width: auto;
     }
+    .container-fluid {
+        padding: 3% 15%;
+        height: 100vh;
+    }
+
+}
+@media screen and (max-width : 1897px) {
+
+    .container-fluid {
+        padding: 3% 15%;
+        height: 70vh;
+    }
 
 }
