@@ -6,7 +6,7 @@
     height: auto;
     display: block;
     margin: 10% auto;
-    width: 100%;
+    width: 80%;
 }
 
 .slogan {
@@ -96,4 +96,19 @@
     .jonathan-poop {
         margin: 0 auto;
     }
+}
+@media screen and (max-width : 1536px) {
+
+
+    .mainImage-bored{
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width : 991px) {
+
+    .mainImage-bored{
+        margin-top: 30%;
+        width: auto;
+    }
+
 }
