@@ -1,0 +1,30 @@
+#title{
+    background-color: #FFFFFF;
+}
+
+.mainImage-bored{
+    height: auto;
+    display: block;
+    margin: 10% auto;
+    width: 80%;
+}
+
+.slogan{
+    font-family: 'Nunito', sans-serif;
+    padding-top: 20%;
+}
+
+.brand-name{
+    font-family: 'Signika', sans-serif;
+}
+
+::selection{
+    background-color: #FFD24C;
+}
+.container-fluid{
+    padding: 3% 15%;
+    height: 100vh;
+}
+.download-button{
+    padding-top: 5%;
+}
