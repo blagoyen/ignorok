@@ -65,26 +65,15 @@
     margin-right: auto;
 }
 
-@media screen and (max-width : 914px) {
 
 
-    .review-description {
-        margin: 0 auto;
-        width: auto;
+@media screen and (max-width : 1897px) {
+
+    .container-fluid {
+        padding: 3% 15%;
+        height: 70vh;
     }
 
-}
-
-@media screen and (max-width : 760px) {
-
-
-    .review-description {
-        margin: 0 auto;
-    }
-
-    .jonathan-poop {
-        margin: 0 auto;
-    }
 }
 @media screen and (max-width : 1668px) {
 
@@ -106,21 +95,35 @@
 }
 @media screen and (max-width : 991px) {
 
-    .mainImage-bored{
-        margin-top: 30%;
-        width: auto;
-    }
     .container-fluid {
         padding: 3% 15%;
         height: 100vh;
     }
 
-}
-@media screen and (max-width : 1897px) {
-
-    .container-fluid {
-        padding: 3% 15%;
-        height: 70vh;
+    .mainImage-bored{
+        margin-top: 30%;
+        width: auto;
     }
 
+
+}
+@media screen and (max-width : 914px) {
+
+
+    .review-description {
+        margin: 0 auto;
+        width: auto;
+    }
+
+}
+@media screen and (max-width : 760px) {
+
+
+    .review-description {
+        margin: 0 auto;
+    }
+
+    .jonathan-poop {
+        margin: 0 auto;
+    }
 }
