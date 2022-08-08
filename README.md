@@ -12,7 +12,9 @@ Ignorek is an website project which showcases an software which detects and stop
 ## Screenshots
 
 ![Website Screenshot](https://i.imgur.com/KDGHP4x.png)
-![S22 Ultra Screenshot](https://i.imgur.com/O5MNLfg.png)
+![S22 Ultra Screenshot](https://i.imgur.com/ronCfQi.png)
+![Iphone 13 Pro Max](https://i.imgur.com/HybUOKN.png)
+![Ipad 6](https://i.imgur.com/zs3JvCa.png)
 ## Colors Used
 
 | Color             | Hex                                                                |
