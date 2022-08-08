@@ -6,7 +6,7 @@
     height: auto;
     display: block;
     margin: 10% auto;
-    width: 80%;
+    width: 100%;
 }
 
 .slogan{
@@ -27,4 +27,11 @@
 }
 .download-button{
     padding-top: 5%;
+}
+.jonathan-poop{
+    height: 15rem;
+    width: auto;
+}
+.review-description{
+    padding-top: 3rem;
 }
