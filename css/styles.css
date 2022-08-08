@@ -6,7 +6,7 @@
     height: auto;
     display: block;
     margin: 10% auto;
-    width: 80%;
+    width: 50%;
 }
 
 .slogan {
@@ -33,7 +33,7 @@
 
 .jonathan-poop {
     height: 15rem;
-    width: auto;
+    width: auto%;
 }
 
 .review-description {
@@ -64,8 +64,6 @@
     margin-left: 35%;
     margin-right: auto;
 }
-
-
 
 @media screen and (max-width : 1897px) {
 
