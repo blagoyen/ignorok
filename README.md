@@ -17,9 +17,10 @@ Ignorek is an website project which showcases an software which detects and stop
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| White | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Black | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Yellow | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| ![#ffffff](https://img.shields.io/static/v1?label=&message=White&color=ffffff) | #ffffff |
+| ![#000000](https://img.shields.io/static/v1?label=&message=Black&color=000000) | #000000 |
+| ![#FFD24C](https://img.shields.io/static/v1?label=&message=Yellow&color=FFD24C) | #FFD24C |
+
 
 
 ## Contributing
