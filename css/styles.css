@@ -2,10 +2,10 @@
     background-color: #FFFFFF;
 }
 
-.mainImage-bored {
+.imageDiv > img {
     height: auto;
     display: block;
-    margin: 10% auto;
+    margin: 10% auto 10% auto;
     width: 80%;
 }
 
@@ -23,8 +23,19 @@
 }
 
 .container-fluid {
+    position:relative;
     padding: 3% 15%;
-    height: 100vh;
+    height: fit-content;
+    margin-bottom: 5%;
+}
+
+.container-size{
+
+}
+
+.imageDiv{
+    position: relative;
+    margin-bottom:auto ;
 }
 
 .download-button {
@@ -54,41 +65,46 @@
 }
 
 .review-description {
-    max-width: 50%;
-    margin-right: 30%;
+    display: block;
+    margin: 0 auto 0 0;
+    max-width: fit-content;
 }
 
 .jonathan-poop {
     max-width: fit-content;
     display: block;
-    margin-left: 35%;
-    margin-right: auto;
+    margin: 0 0 0 auto;
 }
 
 @media screen and (max-width : 1897px) {
 
     .container-fluid {
         padding: 3% 15%;
-        height: 70vh;
+    }
+    .jonathan-poop{
+        margin: 0 0 0 auto;
     }
 
 }
-@media screen and (max-width : 1668px) {
 
-
+@media screen and (max-width : 1669px) {
+    
     .review-description {
-        margin: 0 auto;
+        margin: 0 auto 0 0;
+        width: auto;
     }
-
     .jonathan-poop {
-        margin: 0 auto;
+        
+        margin: 0 0 0 auto;
+        width: auto;
     }
+    
 }
+
 @media screen and (max-width : 1536px) {
 
 
-    .mainImage-bored{
-        margin-top: 30%;
+    .imageDiv > img{
     }
 }
 @media screen and (max-width : 991px) {
@@ -98,30 +114,57 @@
         height: 100vh;
     }
 
-    .mainImage-bored{
-        margin-top: 30%;
-        width: auto;
-    }
-
-
-}
-@media screen and (max-width : 914px) {
-
-
-    .review-description {
-        margin: 0 auto;
-        width: auto;
+    .imageDiv > img{
+        margin-right: 100%;
+        width: 90%;
     }
 
 }
-@media screen and (max-width : 760px) {
 
+@media screen and (max-width : 820px) {
 
-    .review-description {
-        margin: 0 auto;
+    .imageDiv > img{
+        margin: 20% auto 0 auto;
+        width: 80%;
     }
 
+}
+
+@media screen and (max-width : 768px) {
+    .imageDiv > img{
+        margin: 20% auto 0 auto;
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width : 710px) {
+
+    .review-description {
+        margin: 0 auto 0 0;
+        padding-left: 0;
+        width: auto;
+    }
     .jonathan-poop {
-        margin: 0 auto;
+        padding-right: 0;
+        margin: 0 0 0 auto;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width : 540px) {
+    .imageDiv > img{
+        margin: 10% auto 10% auto;
+        width: 70%;
+        
     }
 }
+
+@media screen and (max-width : 414px) {
+    .imageDiv > img{
+        margin: 40% auto 0 auto;
+        width: 100%;
+    }
+}
+    
