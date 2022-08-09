@@ -29,10 +29,6 @@
     margin-bottom: 5%;
 }
 
-.container-size{
-
-}
-
 .imageDiv{
     position: relative;
     margin-bottom:auto ;
@@ -101,12 +97,6 @@
     
 }
 
-@media screen and (max-width : 1536px) {
-
-
-    .imageDiv > img{
-    }
-}
 @media screen and (max-width : 991px) {
 
     .container-fluid {
