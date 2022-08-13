@@ -1,7 +1,7 @@
 
-# ignorek
+# ignorok
 
-Ignorek is an website project which showcases an software which detects and stops boring conversations.
+Ignorok is an website project which showcases an software which detects and stops boring conversations.
 
 
 ## Authors
